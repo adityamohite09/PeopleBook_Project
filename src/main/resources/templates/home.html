@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	th:replace="base::layout(~{::section})" lang="en">
+<head>
+<meta charset="UTF-8">
+<title>home page</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+<link rel="stylesheet" href="@{/css/style.css}">
+</head>
+<body>
+	<section>
+		<div class="position-relative d-flex justify-content-center">
+			<img class="hero" src="../img/i.jpg" />
+			<div
+				class="position-absolute top-50 d-flex justify-content-center flex-column ">
+				<h1 class="text-light text-center fw-bold">PeopleBook </h1>
+				<h5 class="text-center text-light">-Organize, Connect, Remember-</h5>
+				<p class="text-center text-light">Start Collecting your contact
+					in very smarter way.we provide very efficient and smarter way of
+					handling contacts.</p>
+				<p class="text-center">
+					<a class="btn btn-lg-secondary btn-success" th:href="@{/signup}">Get Start</a>
+				</p>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
