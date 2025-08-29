@@ -7,7 +7,6 @@ It includes features like user authentication, adding contacts, updating details
 - User registration, login, and logout  
 - Secure authentication with Spring Security  
 - Add, edit, and delete contacts  
-- Search and filter contacts easily  
 - MySQL database integration  
 - Simple and responsive UI with Thymeleaf & Bootstrap  
 
