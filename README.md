@@ -19,3 +19,7 @@ Tech Stack
 
 download project notes-
 https://github.com/adityamohite09/PeopleBook_Project/commit/d2409d451a09c9690c1d6924f6b2be3d6a973dfe
+
+Database
+   - Databasename : smartcontact
+   - table : for user (user table) , for contact (contact table)
